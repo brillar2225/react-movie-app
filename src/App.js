@@ -11,7 +11,7 @@ import Error from './routes/Error';
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: `${process.env.PUBLIC_URL}/`,
     element: <Root />,
     errorElement: <Error />,
     children: [
